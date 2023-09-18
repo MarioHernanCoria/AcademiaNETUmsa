@@ -8,7 +8,10 @@ namespace AcademiaNETUmsa.Controllers
     public class SaldoController : ControllerBase
     {
 
-
+        /// <summary>
+        /// Funcion para Consultar Saldo
+        /// </summary>
+        /// <returns>190</returns>
         [HttpGet]
         [Route("Consultar")]
         public IActionResult Consultar()
@@ -16,6 +19,11 @@ namespace AcademiaNETUmsa.Controllers
            return Ok(190);
         }
 
+
+        /// <summary>
+        /// Funcion para Agrega saldo
+        /// </summary>
+        /// <returns>Un Hola</returns>
         [HttpPost]
         [Route("Agregar")]
         public IActionResult AgregarSaldo()
